@@ -1,0 +1,136 @@
+body {
+    font-family: 'Metamorphous', serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #4f721e, #2a5298);
+    color: #fff;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 5%;
+    background-color: #4f721e;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    color: #000;
+    transition: background-color 0.3s ease-in-out;
+}
+
+header img {
+    max-width: 80%;
+    height: 200px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+header img:hover {
+    transform: scale(1.1);
+}
+
+header h1 {
+    font-size: 3.5em;
+    margin-top: 20px;
+}
+
+header p {
+    text-align: center;
+    max-width: 80%;
+    margin: 20px auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 5%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.box {
+    width: 45%;
+    margin-bottom: 5%;
+    border: 12px solid #FFA000;
+    border-radius: 10px;
+    overflow: visible;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.box:hover {
+    transform: scale(1.02);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background-color: #2a5298;
+    color: #fff;
+    text-align: center;
+    padding: 20px 5%;
+}
+
+footer .logo {
+    font-size: 1.5em;
+}
+
+footer .logo img {
+    max-width: 80px;
+    height: auto;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+footer .logo:hover img {
+    transform: scale(1.2);
+}
+
+footer .company-info {
+    margin-top: 20px;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+footer form label {
+    font-size: 1em;
+}
+
+footer form input,
+footer form textarea {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer form button {
+    background-color: #FFA000;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+footer form button:hover {
+    background-color: #FAD02E;
+    color: #000;
+}
